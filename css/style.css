@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #031830;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.headerr a{
+    margin: 0;
+    text-decoration: none;
+    color:aqua ;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 38px;
+    list-style: none;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    color: #031830;
+    border-bottom: #f5ad0d 2px solid ;
+
+}
+
+
+.section {
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background: url('../img/blue-network-patterned-background-2023-11-27-05-06-21-utc.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+ margin: auto;
+}
+
+h1 {
+    padding-top: 90px;
+    margin: auto;
+    color: aqua;
+
+}
+
+p {
+padding-top: 25px;    
+    color: white;
+    font-size: 20px;
+    margin: auto;
+
+}
+button.animated-button {
+    border: none;
+    
+    background-color:#031830;
+    color: #ffffff;
+    border: 1px solid aqua;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button.animated-button:hover {
+    background-color:  #f5ad0d;
+    color: #ffffff;
+    border: none;
+    transform: scale(1.1);
+}
+
+.aboutt p {
+padding: 20px 0px 20px 5rem;
+font-size: 50px;
+color: #f5ad0d;
+}
+/* skills */
+
+.ma1{
+    background-size: 100%;  
+    background:#031830 ;
+      padding: 10px;
+      color: white;
+      height: 600px;
+  }
+
+  .test7 p{
+    
+      margin: auto;
+      text-align: center;
+      font-size: 60px;
+      color: #f5ad0d;
+  }
+  .test8 img{
+    height: 450px;
+    margin-bottom: 50px;   
+    padding-bottom: 20px;
+    padding-left: 80px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .mm{
+    color:aqua;
+    font-size: 20px;
+  }
+
